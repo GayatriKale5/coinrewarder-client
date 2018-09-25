@@ -1,0 +1,74 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* main heading */
+
+logo.logo-image{
+    width: 50%;
+}
+
+/* input box */
+.name-icon input[type=text],
+.countryicon input[type=text],
+.referralicon input[type=text],
+.email-icon input[type=email] {
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0;
+    border: 1px solid #D6D6D6;
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(212, 210, 212, 1);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(212, 210, 212, 1);
+    box-shadow: 1px 2px 5px 1px rgba(212, 210, 212, 1);
+}
+
+input#formGroupExampleInput.form-control,
+input#formGroupExampleInput2.form-control,
+input#formGroupExampleInput3.form-control,
+input#formGroupExampleInput4.form-control {
+    color: #000000;
+    opacity: .7;
+    font-size: 13px;
+}
+
+/* input box icons */
+.name-icon,
+.email-icon,
+.countryicon,
+.referralicon {
+    position: relative;
+}
+
+.name-icon .fa-user,
+.countryicon .fa-map-marked-alt,
+.referralicon .fa-user-plus,
+.email-icon .fa-envelope {
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    color: #D6D6D6;
+    font-size: 14px;
+}
+
+/* Submit button*/
+
+.submitbutton {
+    background-color: #19A1EF;
+    padding: 5px 40px;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
